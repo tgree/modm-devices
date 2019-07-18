@@ -540,6 +540,9 @@ class STMDeviceTree:
             pin_section = node.addChild("pin")
             pin_section.setAttributes("position", pin.get("Position"),
                                       "name", pin.get("Name"))
+        node.addSortKey(lambda e: ((('_', int(e["position"])) if e["position"][0].isdigit()
+                                    else (e["position"][0], int(e["position"][1:]))) if e.name == "pin" else ("", -1)
+                                  ))
 
     @staticmethod
     def addModuleAttributesToNode(p, node, peripheral, name, family="stm32"):
