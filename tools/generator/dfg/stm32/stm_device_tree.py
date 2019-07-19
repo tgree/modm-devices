@@ -108,6 +108,8 @@ class STMDeviceTree:
             ]
         else:
             mem_start, mem_model = stm.getMemoryForDevice(did)
+            if mem_start is None:
+                return None
             total_ram = ram = rams[sizeIndexRam] * 1024 + mem_model["sram1"]
             flash = flashs[sizeIndexFlash] * 1024 + mem_model["flash"]
             if "ccm" in mem_model:

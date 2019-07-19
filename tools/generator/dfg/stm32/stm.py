@@ -443,5 +443,5 @@ def getMemoryForDevice(device_id):
                 break
     if mem_model == None:
         LOGGER.error("Memory model not found for device '{}'".format(device_id.string))
-        exit(1)
+        return None, None
     return (mem_fam['start'], mem_model['memories'])
