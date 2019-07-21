@@ -221,7 +221,7 @@ class STMDeviceTree:
             pin = p.get("Name")[:4]
             if len(pin) > 3 and not pin[3].isdigit():
                 pin = pin[:3]
-            return (port, int(pin[2:]))
+            return (port, int(pin[2:]), p.get("Name"))
         pins = sorted(pins, key=raw_pin_sort)
         # STM32G0 has pin remaps?!?
         pins = filter(lambda p: "PINREMAP" not in p.get("Variant", ""), pins)
@@ -296,7 +296,8 @@ class STMDeviceTree:
                     if "exti" in naf["name"]: continue;
                     afs.append(naf)
 
-            gpio = (name[1:2].lower(), name[2:].lower(), afs)
+            gpio = (name[1:2].lower(), name[2:].lower(), afs,
+                    pin.get("Position"))
             gpios.append(gpio)
             # print(gpio[0].upper(), gpio[1], afs)
             # LOGGER.debug("{}{}: {} ->".format(gpio[0].upper(), gpio[1]))
@@ -478,14 +479,15 @@ class STMDeviceTree:
         # Sort these things
         def sort_gpios(e):
             if e["driver"] is None:
-                return (100, "", 0, e["port"], int(e["pin"]))
+                return (100, "", 0, e["port"], int(e["pin"]), e["name"])
             else:
-                return (int(e["position"]), e["driver"], int(0 if e["instance"] is None else e["instance"]), "", 0)
+                return (int(e["position"]), e["driver"], int(0 if e["instance"] is None else e["instance"]), "", 0, "")
         gpio_driver.addSortKey(sort_gpios)
 
-        for port, pin, signals in p["gpios"]:
+        for port, pin, signals, position in p["gpios"]:
             pin_driver = gpio_driver.addChild("gpio")
-            pin_driver.setAttributes("port", port, "pin", pin)
+            pin_driver.setAttributes("port", port, "pin", pin, "position",
+                                     position)
             pin_driver.addSortKey(lambda e: (int(e["af"]) if e["af"] is not None else -1,
                                              e["driver"] if e["driver"] is not None else "",
                                              e["instance"] if e["instance"] is not None else "",
@@ -540,8 +542,9 @@ class STMDeviceTree:
         all_pins = p["all_pins"]
         for pin in all_pins:
             pin_section = node.addChild("pin")
-            pin_section.setAttributes("position", pin.get("Position"),
-                                      "name", pin.get("Name"))
+            pin_section.setAttributes("position", pin.get("Position").upper(),
+                                      "name", pin.get("Name").upper(),
+                                      "type", pin.get("Type").upper())
         node.addSortKey(lambda e: ((('_', int(e["position"])) if e["position"][0].isdigit()
                                     else (e["position"][0], int(e["position"][1:]))) if e.name == "pin" else ("", -1)
                                   ))
