@@ -7,48 +7,43 @@ stm_groups = \
     # STM32F0 devices
     {
         'family': ['f0'],
-        'name': ['30', '70'],
-        'size': ['4', '6']
+        'name': ['30'],
     },{
         'family': ['f0'],
-        'name': ['30', '70'],
-        'size': ['8']
+        'name': ['31'],
     },{
         'family': ['f0'],
-        'name': ['30', '70'],
-        'size': ['b', 'c']
-    },{
-        'family': ['f0'],
-        'name': ['31', '51'],
-        'size': ['4', '6']
-    },{
-        'family': ['f0'],
-        'name': ['51', '71'],
-        'size': ['8']
-    },{
-        'family': ['f0'],
-        'name': ['71', '91'],
-        'size': ['b', 'c']
+        'name': ['38'],
     },{
         'family': ['f0'],
         'name': ['42'],
-        'size': ['4', '6']
     },{
         'family': ['f0'],
-        'name': ['72'],
-        'size': ['8', 'b']
+        'name': ['48'],
     },{
         'family': ['f0'],
-        'name': ['38', '48'],
-        'size': ['4', '6']
+        'name': ['51'],
     },{
         'family': ['f0'],
         'name': ['58'],
-        'size': ['8']
     },{
         'family': ['f0'],
-        'name': ['78', '98'],
-        'size': ['b', 'c']
+        'name': ['70'],
+    },{
+        'family': ['f0'],
+        'name': ['71'],
+    },{
+        'family': ['f0'],
+        'name': ['72'],
+    },{
+        'family': ['f0'],
+        'name': ['78'],
+    },{
+        'family': ['f0'],
+        'name': ['91'],
+    },{
+        'family': ['f0'],
+        'name': ['98'],
     },
 
     # STM32F1 devices
@@ -232,6 +227,15 @@ stm_groups = \
     },{
         'family': ['h7'],
         'name': ['47', '57']
+    },{
+        'family': ['h7'],
+        'name': ['a3']
+    },{
+        'family': ['h7'],
+        'name': ['b0']
+    },{
+        'family': ['h7'],
+        'name': ['b3']
     },
 
     # STM32L0 devices
@@ -300,11 +304,23 @@ stm_groups = \
     },{
         'family': ['l4'],
         'name': ['s5', 's7', 's9']
+    },{
+        'family': ['l4'],
+        'name': ['p5']
+    },{
+        'family': ['l4'],
+        'name': ['q5']
     },
 
     # STM32WB devices
     {
         'family': ['wb'],
-        'name': ['55']
+        'name': ['30', '50']
+    },{
+        'family': ['wb'],
+        'name': ['35', '55']
+    },{
+        'family': ['wb'],
+        'name': ['5m']
     }
 ]

@@ -13,22 +13,19 @@ These tools and this data set is maintained and curated by
 It is licensed under the MPLv2 license.
 The CI checks daily for new data: [![](https://travis-ci.org/modm-io/modm-devices.svg?branch=develop)](https://travis-ci.org/modm-io/modm-devices)
 
-Currently data on all STM32 families is available, as well as all AVR devices
-(most of which are missing GPIO data though).
+Currently data for <!--devicecount-->2984<!--/devicecount--> devices is available.
 Please open an issue or better yet a pull request for additional support.
 
-<center>
-
+<!--devicetable-->
 | Family        | Devices | Family        | Devices | Family        | Devices |
 |:--------------|:--------|:--------------|:--------|:--------------|:--------|
-| AT90          | 16      | ATtiny        | 41      | Atmega        | 108     |
-| STM32L0       | 156     | STM32L1       | 85      | STM32L4       | 181     |
-| STM32F0       | 111     | STM32F1       | 125     | STM32F2       | 47      |
-| STM32F3       | 93      | STM32F4       | 209     | STM32F7       | 120     |
-| STM32G0       | 72      | STM32G4       | 109     | STM32H7       | 72      |
-| STM32WB       | 9       |
-
-</center>
+| AT90          |    12   | ATMEGA        |   370   | ATTINY        |   148   |
+| STM32F0       |   168   | STM32F1       |   194   | STM32F2       |    71   |
+| STM32F3       |   143   | STM32F4       |   340   | STM32F7       |   174   |
+| STM32G0       |   117   | STM32G4       |   263   | STM32H7       |   153   |
+| STM32L0       |   307   | STM32L1       |   140   | STM32L4       |   353   |
+| STM32WB       |    31   |
+<!--/devicetable-->
 
 
 ### TL;DR
