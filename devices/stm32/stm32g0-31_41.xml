@@ -46,6 +46,186 @@
     <valid-device>stm32g041k8t6</valid-device>
     <valid-device>stm32g041k8u6</valid-device>
     <valid-device>stm32g041y8y6</valid-device>
+    <pin device-pin="y" position="A1" name="PA13" type="I/O"/>
+    <pin device-pin="y" position="A3" name="PA14-BOOT0" type="I/O"/>
+    <pin device-pin="y" position="A3" name="PA15" type="I/O"/>
+    <pin device-pin="y" position="A5" name="PB7" type="I/O"/>
+    <pin device-pin="y" position="A5" name="PB8" type="I/O"/>
+    <pin device-pin="y" position="A7" name="PC15-OSC32_OUT (PC15)" type="I/O"/>
+    <pin device-pin="y" position="B2" name="PA12 [PA10]" type="I/O"/>
+    <pin device-pin="y" position="B2" name="PA10 [PA12]" type="I/O"/>
+    <pin device-pin="y" position="B4" name="PB3" type="I/O"/>
+    <pin device-pin="y" position="B4" name="PB4" type="I/O"/>
+    <pin device-pin="y" position="B4" name="PB5" type="I/O"/>
+    <pin device-pin="y" position="B4" name="PB6" type="I/O"/>
+    <pin device-pin="y" position="B6" name="PC14-OSC32_IN (PC14)" type="I/O"/>
+    <pin device-pin="y" position="B6" name="PB9" type="I/O"/>
+    <pin device-pin="y" position="C1" name="PA11 [PA9]" type="I/O"/>
+    <pin device-pin="y" position="C1" name="PA9 [PA11]" type="I/O"/>
+    <pin device-pin="y" position="C3" name="PA5" type="I/O"/>
+    <pin device-pin="y" position="C5" name="PA1" type="I/O"/>
+    <pin device-pin="y" position="C7" name="VBAT" type="POWER"/>
+    <pin device-pin="y" position="D2" name="PA7" type="I/O"/>
+    <pin device-pin="y" position="D4" name="PA3" type="I/O"/>
+    <pin device-pin="y" position="D4" name="PA4" type="I/O"/>
+    <pin device-pin="y" position="D6" name="VSS/VSSA" type="MONOIO"/>
+    <pin device-pin="y" position="E1" name="PB0" type="I/O"/>
+    <pin device-pin="y" position="E1" name="PB1" type="I/O"/>
+    <pin device-pin="y" position="E1" name="PB2" type="I/O"/>
+    <pin device-pin="y" position="E1" name="PA8" type="I/O"/>
+    <pin device-pin="y" position="E3" name="PA6" type="I/O"/>
+    <pin device-pin="y" position="E5" name="PA2" type="I/O"/>
+    <pin device-pin="y" position="E7" name="NRST" type="MONOIO"/>
+    <pin device-pin="y" position="E7" name="PA0" type="I/O"/>
+    <pin device-pin="j|k" position="1" name="PB9" type="I/O"/>
+    <pin device-pin="g|j" position="1" name="PC14-OSC32_IN (PC14)" type="I/O"/>
+    <pin device-pin="f|j" position="1" name="PB7" type="I/O"/>
+    <pin device-pin="f|j" position="1" name="PB8" type="I/O"/>
+    <pin device-pin="c" position="1" name="PC13" type="I/O"/>
+    <pin device-pin="c|f|k" position="2" name="PC14-OSC32_IN (PC14)" type="I/O"/>
+    <pin device-pin="j" position="2" name="VBAT" type="POWER"/>
+    <pin device-pin="g" position="2" name="PC15-OSC32_OUT (PC15)" type="I/O"/>
+    <pin device-pin="f" position="2" name="PB9" type="I/O"/>
+    <pin device-pin="c|f|k" position="3" name="PC15-OSC32_OUT (PC15)" type="I/O"/>
+    <pin device-pin="j" position="3" name="VSS/VSSA" type="MONOIO"/>
+    <pin device-pin="g" position="3" name="VBAT" type="POWER"/>
+    <pin device-pin="c|f|k" position="4" name="VBAT" type="POWER"/>
+    <pin device-pin="j" position="4" name="NRST" type="MONOIO"/>
+    <pin device-pin="j" position="4" name="PA0" type="I/O"/>
+    <pin device-pin="j" position="4" name="PA1" type="I/O"/>
+    <pin device-pin="j" position="4" name="PA2" type="I/O"/>
+    <pin device-pin="g" position="4" name="VSS/VSSA" type="MONOIO"/>
+    <pin device-pin="f|k" position="5" name="VSS/VSSA" type="MONOIO"/>
+    <pin device-pin="j" position="5" name="PB0" type="I/O"/>
+    <pin device-pin="j" position="5" name="PB1" type="I/O"/>
+    <pin device-pin="j" position="5" name="PA8" type="I/O"/>
+    <pin device-pin="j" position="5" name="PA11 [PA9]" type="I/O"/>
+    <pin device-pin="j" position="5" name="PA9 [PA11]" type="I/O"/>
+    <pin device-pin="g" position="5" name="NRST" type="MONOIO"/>
+    <pin device-pin="c" position="5" name="VREF+" type="MONOIO"/>
+    <pin device-pin="f|k" position="6" name="NRST" type="MONOIO"/>
+    <pin device-pin="j" position="6" name="PA12 [PA10]" type="I/O"/>
+    <pin device-pin="j" position="6" name="PA10 [PA12]" type="I/O"/>
+    <pin device-pin="g" position="6" name="PA0" type="I/O"/>
+    <pin device-pin="c" position="6" name="VDD/VDDA" type="MONOIO"/>
+    <pin device-pin="f|k" position="7" name="PA0" type="I/O"/>
+    <pin device-pin="j" position="7" name="PA13" type="I/O"/>
+    <pin device-pin="g" position="7" name="PA1" type="I/O"/>
+    <pin device-pin="c" position="7" name="VSS/VSSA" type="MONOIO"/>
+    <pin device-pin="f|k" position="8" name="PA1" type="I/O"/>
+    <pin device-pin="j" position="8" name="PA14-BOOT0" type="I/O"/>
+    <pin device-pin="j" position="8" name="PA15" type="I/O"/>
+    <pin device-pin="j" position="8" name="PB5" type="I/O"/>
+    <pin device-pin="j" position="8" name="PB6" type="I/O"/>
+    <pin device-pin="g" position="8" name="PA2" type="I/O"/>
+    <pin device-pin="c" position="8" name="PF0-OSC_IN (PF0)" type="I/O"/>
+    <pin device-pin="f|k" position="9" name="PA2" type="I/O"/>
+    <pin device-pin="g" position="9" name="PA3" type="I/O"/>
+    <pin device-pin="c" position="9" name="PF1-OSC_OUT (PF1)" type="I/O"/>
+    <pin device-pin="f|k" position="10" name="PA3" type="I/O"/>
+    <pin device-pin="g" position="10" name="PA4" type="I/O"/>
+    <pin device-pin="c" position="10" name="NRST" type="MONOIO"/>
+    <pin device-pin="f|k" position="11" name="PA4" type="I/O"/>
+    <pin device-pin="g" position="11" name="PA5" type="I/O"/>
+    <pin device-pin="c" position="11" name="PA0" type="I/O"/>
+    <pin device-pin="f|k" position="12" name="PA5" type="I/O"/>
+    <pin device-pin="g" position="12" name="PA6" type="I/O"/>
+    <pin device-pin="c" position="12" name="PA1" type="I/O"/>
+    <pin device-pin="f|k" position="13" name="PA6" type="I/O"/>
+    <pin device-pin="g" position="13" name="PA7" type="I/O"/>
+    <pin device-pin="c" position="13" name="PA2" type="I/O"/>
+    <pin device-pin="f|k" position="14" name="PA7" type="I/O"/>
+    <pin device-pin="g" position="14" name="PB0" type="I/O"/>
+    <pin device-pin="c" position="14" name="PA3" type="I/O"/>
+    <pin device-pin="f|k" position="15" name="PB0" type="I/O"/>
+    <pin device-pin="f|g" position="15" name="PB1" type="I/O"/>
+    <pin device-pin="f" position="15" name="PB2" type="I/O"/>
+    <pin device-pin="f" position="15" name="PA8" type="I/O"/>
+    <pin device-pin="c" position="15" name="PA4" type="I/O"/>
+    <pin device-pin="k" position="16" name="PB1" type="I/O"/>
+    <pin device-pin="g" position="16" name="PA8" type="I/O"/>
+    <pin device-pin="f" position="16" name="PA11 [PA9]" type="I/O"/>
+    <pin device-pin="f" position="16" name="PA9 [PA11]" type="I/O"/>
+    <pin device-pin="c" position="16" name="PA5" type="I/O"/>
+    <pin device-pin="k" position="17" name="PB2" type="I/O"/>
+    <pin device-pin="g" position="17" name="PC6" type="I/O"/>
+    <pin device-pin="f" position="17" name="PA12 [PA10]" type="I/O"/>
+    <pin device-pin="f" position="17" name="PA10 [PA12]" type="I/O"/>
+    <pin device-pin="c" position="17" name="PA6" type="I/O"/>
+    <pin device-pin="k" position="18" name="PA8" type="I/O"/>
+    <pin device-pin="g" position="18" name="PA11 [PA9]" type="I/O"/>
+    <pin device-pin="g" position="18" name="PA9 [PA11]" type="I/O"/>
+    <pin device-pin="f" position="18" name="PA13" type="I/O"/>
+    <pin device-pin="c" position="18" name="PA7" type="I/O"/>
+    <pin device-pin="k" position="19" name="PA9" type="I/O"/>
+    <pin device-pin="k" position="19" name="NC" type="NC"/>
+    <pin device-pin="g" position="19" name="PA12 [PA10]" type="I/O"/>
+    <pin device-pin="g" position="19" name="PA10 [PA12]" type="I/O"/>
+    <pin device-pin="f" position="19" name="PA14-BOOT0" type="I/O"/>
+    <pin device-pin="f" position="19" name="PA15" type="I/O"/>
+    <pin device-pin="c" position="19" name="PB0" type="I/O"/>
+    <pin device-pin="k" position="20" name="PC6" type="I/O"/>
+    <pin device-pin="g" position="20" name="PA13" type="I/O"/>
+    <pin device-pin="f" position="20" name="PB3" type="I/O"/>
+    <pin device-pin="f" position="20" name="PB4" type="I/O"/>
+    <pin device-pin="f" position="20" name="PB5" type="I/O"/>
+    <pin device-pin="f" position="20" name="PB6" type="I/O"/>
+    <pin device-pin="c" position="20" name="PB1" type="I/O"/>
+    <pin device-pin="k" position="21" name="PA10" type="I/O"/>
+    <pin device-pin="k" position="21" name="NC" type="NC"/>
+    <pin device-pin="g" position="21" name="PA14-BOOT0" type="I/O"/>
+    <pin device-pin="c" position="21" name="PB2" type="I/O"/>
+    <pin device-pin="k" position="22" name="PA11 [PA9]" type="I/O"/>
+    <pin device-pin="k" position="22" name="PA9 [PA11]" type="I/O"/>
+    <pin device-pin="g" position="22" name="PA15" type="I/O"/>
+    <pin device-pin="c" position="22" name="PB10" type="I/O"/>
+    <pin device-pin="k" position="23" name="PA12 [PA10]" type="I/O"/>
+    <pin device-pin="k" position="23" name="PA10 [PA12]" type="I/O"/>
+    <pin device-pin="g" position="23" name="PB3" type="I/O"/>
+    <pin device-pin="c" position="23" name="PB11" type="I/O"/>
+    <pin device-pin="k" position="24" name="PA13" type="I/O"/>
+    <pin device-pin="g" position="24" name="PB4" type="I/O"/>
+    <pin device-pin="c" position="24" name="PB12" type="I/O"/>
+    <pin device-pin="k" position="25" name="PA14-BOOT0" type="I/O"/>
+    <pin device-pin="g" position="25" name="PB5" type="I/O"/>
+    <pin device-pin="c" position="25" name="PB13" type="I/O"/>
+    <pin device-pin="k" position="26" name="PA15" type="I/O"/>
+    <pin device-pin="g" position="26" name="PB6" type="I/O"/>
+    <pin device-pin="c" position="26" name="PB14" type="I/O"/>
+    <pin device-pin="k" position="27" name="PB3" type="I/O"/>
+    <pin device-pin="g" position="27" name="PB7" type="I/O"/>
+    <pin device-pin="c" position="27" name="PB15" type="I/O"/>
+    <pin device-pin="k" position="28" name="PB4" type="I/O"/>
+    <pin device-pin="g" position="28" name="PB8" type="I/O"/>
+    <pin device-pin="c" position="28" name="PA8" type="I/O"/>
+    <pin device-pin="k" position="29" name="PB5" type="I/O"/>
+    <pin device-pin="c" position="29" name="PA9" type="I/O"/>
+    <pin device-pin="c" position="29" name="NC" type="NC"/>
+    <pin device-pin="k" position="30" name="PB6" type="I/O"/>
+    <pin device-pin="c" position="30" name="PC6" type="I/O"/>
+    <pin device-pin="k" position="31" name="PB7" type="I/O"/>
+    <pin device-pin="c" position="31" name="PC7" type="I/O"/>
+    <pin device-pin="k" position="32" name="PB8" type="I/O"/>
+    <pin device-pin="c" position="32" name="PA10" type="I/O"/>
+    <pin device-pin="c" position="32" name="NC" type="NC"/>
+    <pin device-pin="c" position="33" name="PA11 [PA9]" type="I/O"/>
+    <pin device-pin="c" position="33" name="PA9 [PA11]" type="I/O"/>
+    <pin device-pin="c" position="34" name="PA12 [PA10]" type="I/O"/>
+    <pin device-pin="c" position="34" name="PA10 [PA12]" type="I/O"/>
+    <pin device-pin="c" position="35" name="PA13" type="I/O"/>
+    <pin device-pin="c" position="36" name="PA14-BOOT0" type="I/O"/>
+    <pin device-pin="c" position="37" name="PA15" type="I/O"/>
+    <pin device-pin="c" position="38" name="PD0" type="I/O"/>
+    <pin device-pin="c" position="39" name="PD1" type="I/O"/>
+    <pin device-pin="c" position="40" name="PD2" type="I/O"/>
+    <pin device-pin="c" position="41" name="PD3" type="I/O"/>
+    <pin device-pin="c" position="42" name="PB3" type="I/O"/>
+    <pin device-pin="c" position="43" name="PB4" type="I/O"/>
+    <pin device-pin="c" position="44" name="PB5" type="I/O"/>
+    <pin device-pin="c" position="45" name="PB6" type="I/O"/>
+    <pin device-pin="c" position="46" name="PB7" type="I/O"/>
+    <pin device-pin="c" position="47" name="PB8" type="I/O"/>
+    <pin device-pin="c" position="48" name="PB9" type="I/O"/>
     <driver name="core" type="cortex-m0+">
       <memory device-size="4" name="flash" access="rx" start="0x8000000" size="16384"/>
       <memory device-size="6" name="flash" access="rx" start="0x8000000" size="32768"/>
@@ -294,58 +474,233 @@
       </requests>
     </driver>
     <driver name="gpio" type="stm32">
-      <gpio port="a" pin="0">
+      <gpio device-pin="y" port="a" pin="0" position="E7">
         <signal driver="adc" instance="1" name="in0"/>
         <signal driver="rtc" name="tamp_in2"/>
         <signal driver="sys" name="wkup1"/>
         <signal af="0" driver="spi" instance="2" name="sck"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="cts"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="nss"/>
+        <signal af="1" driver="usart" instance="2" name="cts"/>
+        <signal af="1" driver="usart" instance="2" name="nss"/>
         <signal af="2" driver="tim" instance="2" name="ch1"/>
         <signal af="2" driver="tim" instance="2" name="etr"/>
         <signal af="5" driver="lptim" instance="1" name="out"/>
       </gpio>
-      <gpio port="a" pin="1">
+      <gpio device-pin="f|k" port="a" pin="0" position="7">
+        <signal driver="adc" instance="1" name="in0"/>
+        <signal driver="rtc" name="tamp_in2"/>
+        <signal driver="sys" name="wkup1"/>
+        <signal af="0" driver="spi" instance="2" name="sck"/>
+        <signal af="1" driver="usart" instance="2" name="cts"/>
+        <signal af="1" driver="usart" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="0" position="4">
+        <signal driver="adc" instance="1" name="in0"/>
+        <signal driver="rtc" name="tamp_in2"/>
+        <signal driver="sys" name="wkup1"/>
+        <signal af="0" driver="spi" instance="2" name="sck"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="0" position="6">
+        <signal driver="adc" instance="1" name="in0"/>
+        <signal driver="rtc" name="tamp_in2"/>
+        <signal driver="sys" name="wkup1"/>
+        <signal af="0" driver="spi" instance="2" name="sck"/>
+        <signal af="1" driver="usart" instance="2" name="cts"/>
+        <signal af="1" driver="usart" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="0" position="11">
+        <signal driver="adc" instance="1" name="in0"/>
+        <signal driver="rtc" name="tamp_in2"/>
+        <signal driver="sys" name="wkup1"/>
+        <signal af="0" driver="spi" instance="2" name="sck"/>
+        <signal af="1" driver="usart" instance="2" name="cts"/>
+        <signal af="1" driver="usart" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="1" position="C5">
         <signal driver="adc" instance="1" name="in1"/>
         <signal af="0" driver="i2s" instance="1" name="ck"/>
         <signal af="0" driver="spi" instance="1" name="sck"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="ck"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="de"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="rts"/>
+        <signal af="1" driver="usart" instance="2" name="ck"/>
+        <signal af="1" driver="usart" instance="2" name="de"/>
+        <signal af="1" driver="usart" instance="2" name="rts"/>
         <signal af="2" driver="tim" instance="2" name="ch2"/>
         <signal af="6" driver="i2c" instance="1" name="smba"/>
       </gpio>
-      <gpio port="a" pin="2">
+      <gpio device-pin="f|k" port="a" pin="1" position="8">
+        <signal driver="adc" instance="1" name="in1"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="usart" instance="2" name="ck"/>
+        <signal af="1" driver="usart" instance="2" name="de"/>
+        <signal af="1" driver="usart" instance="2" name="rts"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="1" position="4">
+        <signal driver="adc" instance="1" name="in1"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="1" position="7">
+        <signal driver="adc" instance="1" name="in1"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="usart" instance="2" name="ck"/>
+        <signal af="1" driver="usart" instance="2" name="de"/>
+        <signal af="1" driver="usart" instance="2" name="rts"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="1" position="12">
+        <signal driver="adc" instance="1" name="in1"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="usart" instance="2" name="ck"/>
+        <signal af="1" driver="usart" instance="2" name="de"/>
+        <signal af="1" driver="usart" instance="2" name="rts"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="2" position="E5">
         <signal driver="adc" instance="1" name="in2"/>
         <signal driver="rcc" name="lsco"/>
         <signal driver="sys" name="wkup4"/>
         <signal af="0" driver="i2s" instance="1" name="sd"/>
         <signal af="0" driver="spi" instance="1" name="mosi"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="tx"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
         <signal af="2" driver="tim" instance="2" name="ch3"/>
         <signal af="6" driver="lpuart" instance="1" name="tx"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="a" pin="3">
+      <gpio device-pin="f|k" port="a" pin="2" position="9">
+        <signal driver="adc" instance="1" name="in2"/>
+        <signal driver="rcc" name="lsco"/>
+        <signal driver="sys" name="wkup4"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+        <signal af="2" driver="tim" instance="2" name="ch3"/>
+        <signal af="6" driver="lpuart" instance="1" name="tx"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="2" position="4">
+        <signal driver="adc" instance="1" name="in2"/>
+        <signal driver="rcc" name="lsco"/>
+        <signal driver="sys" name="wkup4"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="2" driver="tim" instance="2" name="ch3"/>
+        <signal af="6" driver="lpuart" instance="1" name="tx"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="2" position="8">
+        <signal driver="adc" instance="1" name="in2"/>
+        <signal driver="rcc" name="lsco"/>
+        <signal driver="sys" name="wkup4"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+        <signal af="2" driver="tim" instance="2" name="ch3"/>
+        <signal af="6" driver="lpuart" instance="1" name="tx"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="2" position="13">
+        <signal driver="adc" instance="1" name="in2"/>
+        <signal driver="rcc" name="lsco"/>
+        <signal driver="sys" name="wkup4"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+        <signal af="2" driver="tim" instance="2" name="ch3"/>
+        <signal af="6" driver="lpuart" instance="1" name="tx"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="3" position="D4">
         <signal driver="adc" instance="1" name="in3"/>
         <signal af="0" driver="spi" instance="2" name="miso"/>
         <signal af="1" driver="usart" instance="2" name="rx"/>
         <signal af="2" driver="tim" instance="2" name="ch4"/>
         <signal af="6" driver="lpuart" instance="1" name="rx"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="a" pin="4">
+      <gpio device-pin="f|k" port="a" pin="3" position="10">
+        <signal driver="adc" instance="1" name="in3"/>
+        <signal af="0" driver="spi" instance="2" name="miso"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch4"/>
+        <signal af="6" driver="lpuart" instance="1" name="rx"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="3" position="9">
+        <signal driver="adc" instance="1" name="in3"/>
+        <signal af="0" driver="spi" instance="2" name="miso"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch4"/>
+        <signal af="6" driver="lpuart" instance="1" name="rx"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="3" position="14">
+        <signal driver="adc" instance="1" name="in3"/>
+        <signal af="0" driver="spi" instance="2" name="miso"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch4"/>
+        <signal af="6" driver="lpuart" instance="1" name="rx"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="4" position="D4">
         <signal driver="adc" instance="1" name="in4"/>
         <signal driver="rtc" name="out_alarm"/>
         <signal driver="rtc" name="out_calib"/>
-        <signal device-pin="f|g|k|y" driver="rtc" name="tamp_in1"/>
-        <signal device-pin="f|g|k|y" driver="rtc" name="ts"/>
-        <signal device-pin="f|g|k|y" driver="sys" name="wkup2"/>
+        <signal driver="rtc" name="tamp_in1"/>
+        <signal driver="rtc" name="ts"/>
+        <signal driver="sys" name="wkup2"/>
         <signal af="0" driver="i2s" instance="1" name="ws"/>
         <signal af="0" driver="spi" instance="1" name="nss"/>
         <signal af="1" driver="spi" instance="2" name="mosi"/>
         <signal af="4" driver="tim" instance="14" name="ch1"/>
         <signal af="5" driver="lptim" instance="2" name="out"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="a" pin="5">
+      <gpio device-pin="f|k" port="a" pin="4" position="11">
+        <signal driver="adc" instance="1" name="in4"/>
+        <signal driver="rtc" name="out_alarm"/>
+        <signal driver="rtc" name="out_calib"/>
+        <signal driver="rtc" name="tamp_in1"/>
+        <signal driver="rtc" name="ts"/>
+        <signal driver="sys" name="wkup2"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="4" driver="tim" instance="14" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="4" position="10">
+        <signal driver="adc" instance="1" name="in4"/>
+        <signal driver="rtc" name="out_alarm"/>
+        <signal driver="rtc" name="out_calib"/>
+        <signal driver="rtc" name="tamp_in1"/>
+        <signal driver="rtc" name="ts"/>
+        <signal driver="sys" name="wkup2"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="4" driver="tim" instance="14" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="4" position="15">
+        <signal driver="adc" instance="1" name="in4"/>
+        <signal driver="rtc" name="out_alarm"/>
+        <signal driver="rtc" name="out_calib"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="4" driver="tim" instance="14" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="5" position="C3">
         <signal driver="adc" instance="1" name="in5"/>
         <signal af="0" driver="i2s" instance="1" name="ck"/>
         <signal af="0" driver="spi" instance="1" name="sck"/>
@@ -353,7 +708,31 @@
         <signal af="2" driver="tim" instance="2" name="etr"/>
         <signal af="5" driver="lptim" instance="2" name="etr"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="a" pin="6">
+      <gpio device-pin="f|k" port="a" pin="5" position="12">
+        <signal driver="adc" instance="1" name="in5"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="5" position="11">
+        <signal driver="adc" instance="1" name="in5"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="5" position="16">
+        <signal driver="adc" instance="1" name="in5"/>
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+        <signal af="5" driver="lptim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="6" position="E3">
         <signal driver="adc" instance="1" name="in6"/>
         <signal af="0" driver="i2s" instance="1" name="mck"/>
         <signal af="0" driver="spi" instance="1" name="miso"/>
@@ -362,7 +741,34 @@
         <signal af="5" driver="tim" instance="16" name="ch1"/>
         <signal af="6" driver="lpuart" instance="1" name="cts"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="a" pin="7">
+      <gpio device-pin="f|k" port="a" pin="6" position="13">
+        <signal driver="adc" instance="1" name="in6"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="2" driver="tim" instance="1" name="bk"/>
+        <signal af="5" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="lpuart" instance="1" name="cts"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="6" position="12">
+        <signal driver="adc" instance="1" name="in6"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="2" driver="tim" instance="1" name="bk"/>
+        <signal af="5" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="lpuart" instance="1" name="cts"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="6" position="17">
+        <signal driver="adc" instance="1" name="in6"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="2" driver="tim" instance="1" name="bk"/>
+        <signal af="5" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="lpuart" instance="1" name="cts"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="7" position="D2">
         <signal driver="adc" instance="1" name="in7"/>
         <signal af="0" driver="i2s" instance="1" name="sd"/>
         <signal af="0" driver="spi" instance="1" name="mosi"/>
@@ -371,28 +777,99 @@
         <signal af="4" driver="tim" instance="14" name="ch1"/>
         <signal af="5" driver="tim" instance="17" name="ch1"/>
       </gpio>
-      <gpio port="a" pin="8">
+      <gpio device-pin="f|k" port="a" pin="7" position="14">
+        <signal driver="adc" instance="1" name="in7"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="1" name="ch1n"/>
+        <signal af="4" driver="tim" instance="14" name="ch1"/>
+        <signal af="5" driver="tim" instance="17" name="ch1"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="7" position="13">
+        <signal driver="adc" instance="1" name="in7"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="1" name="ch1n"/>
+        <signal af="4" driver="tim" instance="14" name="ch1"/>
+        <signal af="5" driver="tim" instance="17" name="ch1"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="7" position="18">
+        <signal driver="adc" instance="1" name="in7"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="1" name="ch1n"/>
+        <signal af="4" driver="tim" instance="14" name="ch1"/>
+        <signal af="5" driver="tim" instance="17" name="ch1"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="8" position="E1">
         <signal af="0" driver="rcc" name="mco"/>
         <signal af="1" driver="spi" instance="2" name="nss"/>
         <signal af="2" driver="tim" instance="1" name="ch1"/>
         <signal af="5" driver="lptim" instance="2" name="out"/>
       </gpio>
-      <gpio device-pin="c|k" port="a" pin="9">
+      <gpio device-pin="k" port="a" pin="8" position="18">
+        <signal af="0" driver="rcc" name="mco"/>
+        <signal af="1" driver="spi" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="8" position="5">
+        <signal af="0" driver="rcc" name="mco"/>
+        <signal af="1" driver="spi" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="8" position="16">
+        <signal af="0" driver="rcc" name="mco"/>
+        <signal af="1" driver="spi" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="f" port="a" pin="8" position="15">
+        <signal af="0" driver="rcc" name="mco"/>
+        <signal af="1" driver="spi" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="8" position="28">
+        <signal af="0" driver="rcc" name="mco"/>
+        <signal af="1" driver="spi" instance="2" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch1"/>
+        <signal af="5" driver="lptim" instance="2" name="out"/>
+      </gpio>
+      <gpio device-pin="k" port="a" pin="9" position="19">
         <signal af="0" driver="rcc" name="mco"/>
         <signal af="1" driver="usart" instance="1" name="tx"/>
         <signal af="2" driver="tim" instance="1" name="ch2"/>
         <signal af="4" driver="spi" instance="2" name="miso"/>
         <signal af="6" driver="i2c" instance="1" name="scl"/>
       </gpio>
-      <gpio device-pin="c|k" port="a" pin="10">
+      <gpio device-pin="c" port="a" pin="9" position="29">
+        <signal af="0" driver="rcc" name="mco"/>
+        <signal af="1" driver="usart" instance="1" name="tx"/>
+        <signal af="2" driver="tim" instance="1" name="ch2"/>
+        <signal af="4" driver="spi" instance="2" name="miso"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="k" port="a" pin="10" position="21">
         <signal af="0" driver="spi" instance="2" name="mosi"/>
         <signal af="1" driver="usart" instance="1" name="rx"/>
         <signal af="2" driver="tim" instance="1" name="ch3"/>
         <signal af="5" driver="tim" instance="17" name="bk"/>
         <signal af="6" driver="i2c" instance="1" name="sda"/>
       </gpio>
-      <gpio port="a" pin="11">
-        <signal device-pin="f|g|j|k|y" driver="adc" instance="1" name="in15"/>
+      <gpio device-pin="c" port="a" pin="10" position="32">
+        <signal af="0" driver="spi" instance="2" name="mosi"/>
+        <signal af="1" driver="usart" instance="1" name="rx"/>
+        <signal af="2" driver="tim" instance="1" name="ch3"/>
+        <signal af="5" driver="tim" instance="17" name="bk"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="11" position="C1">
+        <signal driver="adc" instance="1" name="in15"/>
         <signal af="0" driver="i2s" instance="1" name="mck"/>
         <signal af="0" driver="spi" instance="1" name="miso"/>
         <signal af="1" driver="usart" instance="1" name="cts"/>
@@ -401,8 +878,57 @@
         <signal af="5" driver="tim" instance="1" name="bk2"/>
         <signal af="6" driver="i2c" instance="2" name="scl"/>
       </gpio>
-      <gpio port="a" pin="12">
-        <signal device-pin="f|g|j|k|y" driver="adc" instance="1" name="in16"/>
+      <gpio device-pin="k" port="a" pin="11" position="22">
+        <signal driver="adc" instance="1" name="in15"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="usart" instance="1" name="cts"/>
+        <signal af="1" driver="usart" instance="1" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch4"/>
+        <signal af="5" driver="tim" instance="1" name="bk2"/>
+        <signal af="6" driver="i2c" instance="2" name="scl"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="11" position="5">
+        <signal driver="adc" instance="1" name="in15"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="usart" instance="1" name="cts"/>
+        <signal af="1" driver="usart" instance="1" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch4"/>
+        <signal af="5" driver="tim" instance="1" name="bk2"/>
+        <signal af="6" driver="i2c" instance="2" name="scl"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="11" position="18">
+        <signal driver="adc" instance="1" name="in15"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="usart" instance="1" name="cts"/>
+        <signal af="1" driver="usart" instance="1" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch4"/>
+        <signal af="5" driver="tim" instance="1" name="bk2"/>
+        <signal af="6" driver="i2c" instance="2" name="scl"/>
+      </gpio>
+      <gpio device-pin="f" port="a" pin="11" position="16">
+        <signal driver="adc" instance="1" name="in15"/>
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="usart" instance="1" name="cts"/>
+        <signal af="1" driver="usart" instance="1" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch4"/>
+        <signal af="5" driver="tim" instance="1" name="bk2"/>
+        <signal af="6" driver="i2c" instance="2" name="scl"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="11" position="33">
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="usart" instance="1" name="cts"/>
+        <signal af="1" driver="usart" instance="1" name="nss"/>
+        <signal af="2" driver="tim" instance="1" name="ch4"/>
+        <signal af="5" driver="tim" instance="1" name="bk2"/>
+        <signal af="6" driver="i2c" instance="2" name="scl"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="12" position="B2">
+        <signal driver="adc" instance="1" name="in16"/>
         <signal af="0" driver="i2s" instance="1" name="sd"/>
         <signal af="0" driver="spi" instance="1" name="mosi"/>
         <signal af="1" driver="usart" instance="1" name="ck"/>
@@ -412,24 +938,161 @@
         <signal af="5" driver="i2s" name="ckin"/>
         <signal af="6" driver="i2c" instance="2" name="sda"/>
       </gpio>
-      <gpio port="a" pin="13">
+      <gpio device-pin="k" port="a" pin="12" position="23">
+        <signal driver="adc" instance="1" name="in16"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="1" name="ck"/>
+        <signal af="1" driver="usart" instance="1" name="de"/>
+        <signal af="1" driver="usart" instance="1" name="rts"/>
+        <signal af="2" driver="tim" instance="1" name="etr"/>
+        <signal af="5" driver="i2s" name="ckin"/>
+        <signal af="6" driver="i2c" instance="2" name="sda"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="12" position="6">
+        <signal driver="adc" instance="1" name="in16"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="1" name="ck"/>
+        <signal af="1" driver="usart" instance="1" name="de"/>
+        <signal af="1" driver="usart" instance="1" name="rts"/>
+        <signal af="2" driver="tim" instance="1" name="etr"/>
+        <signal af="5" driver="i2s" name="ckin"/>
+        <signal af="6" driver="i2c" instance="2" name="sda"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="12" position="19">
+        <signal driver="adc" instance="1" name="in16"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="1" name="ck"/>
+        <signal af="1" driver="usart" instance="1" name="de"/>
+        <signal af="1" driver="usart" instance="1" name="rts"/>
+        <signal af="2" driver="tim" instance="1" name="etr"/>
+        <signal af="5" driver="i2s" name="ckin"/>
+        <signal af="6" driver="i2c" instance="2" name="sda"/>
+      </gpio>
+      <gpio device-pin="f" port="a" pin="12" position="17">
+        <signal driver="adc" instance="1" name="in16"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="1" name="ck"/>
+        <signal af="1" driver="usart" instance="1" name="de"/>
+        <signal af="1" driver="usart" instance="1" name="rts"/>
+        <signal af="2" driver="tim" instance="1" name="etr"/>
+        <signal af="5" driver="i2s" name="ckin"/>
+        <signal af="6" driver="i2c" instance="2" name="sda"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="12" position="34">
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="usart" instance="1" name="ck"/>
+        <signal af="1" driver="usart" instance="1" name="de"/>
+        <signal af="1" driver="usart" instance="1" name="rts"/>
+        <signal af="2" driver="tim" instance="1" name="etr"/>
+        <signal af="5" driver="i2s" name="ckin"/>
+        <signal af="6" driver="i2c" instance="2" name="sda"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="13" position="A1">
         <signal driver="adc" instance="1" name="in17"/>
         <signal af="0" driver="sys" name="swdio"/>
         <signal af="1" name="ir_out"/>
       </gpio>
-      <gpio port="a" pin="14">
+      <gpio device-pin="k" port="a" pin="13" position="24">
+        <signal driver="adc" instance="1" name="in17"/>
+        <signal af="0" driver="sys" name="swdio"/>
+        <signal af="1" name="ir_out"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="13" position="7">
+        <signal driver="adc" instance="1" name="in17"/>
+        <signal af="0" driver="sys" name="swdio"/>
+        <signal af="1" name="ir_out"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="13" position="20">
+        <signal driver="adc" instance="1" name="in17"/>
+        <signal af="0" driver="sys" name="swdio"/>
+        <signal af="1" name="ir_out"/>
+      </gpio>
+      <gpio device-pin="f" port="a" pin="13" position="18">
+        <signal driver="adc" instance="1" name="in17"/>
+        <signal af="0" driver="sys" name="swdio"/>
+        <signal af="1" name="ir_out"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="13" position="35">
+        <signal driver="adc" instance="1" name="in17"/>
+        <signal af="0" driver="sys" name="swdio"/>
+        <signal af="1" name="ir_out"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="14" position="A3">
         <signal driver="adc" instance="1" name="in18"/>
         <signal af="0" driver="sys" name="swclk"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="tx"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
       </gpio>
-      <gpio port="a" pin="15">
+      <gpio device-pin="k" port="a" pin="14" position="25">
+        <signal driver="adc" instance="1" name="in18"/>
+        <signal af="0" driver="sys" name="swclk"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="14" position="8">
+        <signal driver="adc" instance="1" name="in18"/>
+        <signal af="0" driver="sys" name="swclk"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="14" position="21">
+        <signal driver="adc" instance="1" name="in18"/>
+        <signal af="0" driver="sys" name="swclk"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+      </gpio>
+      <gpio device-pin="f" port="a" pin="14" position="19">
+        <signal driver="adc" instance="1" name="in18"/>
+        <signal af="0" driver="sys" name="swclk"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="14" position="36">
+        <signal driver="adc" instance="1" name="in18"/>
+        <signal af="0" driver="sys" name="swclk"/>
+        <signal af="1" driver="usart" instance="2" name="tx"/>
+      </gpio>
+      <gpio device-pin="y" port="a" pin="15" position="A3">
         <signal af="0" driver="i2s" instance="1" name="ws"/>
         <signal af="0" driver="spi" instance="1" name="nss"/>
-        <signal device-pin="c|f|g|k|y" af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
         <signal af="2" driver="tim" instance="2" name="ch1"/>
         <signal af="2" driver="tim" instance="2" name="etr"/>
       </gpio>
-      <gpio port="b" pin="0">
+      <gpio device-pin="k" port="a" pin="15" position="26">
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="j" port="a" pin="15" position="8">
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="g" port="a" pin="15" position="22">
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="f" port="a" pin="15" position="19">
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="c" port="a" pin="15" position="37">
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="usart" instance="2" name="rx"/>
+        <signal af="2" driver="tim" instance="2" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="etr"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="0" position="E1">
         <signal driver="adc" instance="1" name="in8"/>
         <signal af="0" driver="i2s" instance="1" name="ws"/>
         <signal af="0" driver="spi" instance="1" name="nss"/>
@@ -437,7 +1100,39 @@
         <signal af="2" driver="tim" instance="1" name="ch2n"/>
         <signal af="5" driver="lptim" instance="1" name="out"/>
       </gpio>
-      <gpio port="b" pin="1">
+      <gpio device-pin="f|k" port="b" pin="0" position="15">
+        <signal driver="adc" instance="1" name="in8"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="tim" instance="3" name="ch3"/>
+        <signal af="2" driver="tim" instance="1" name="ch2n"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="j" port="b" pin="0" position="5">
+        <signal driver="adc" instance="1" name="in8"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="tim" instance="3" name="ch3"/>
+        <signal af="2" driver="tim" instance="1" name="ch2n"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="0" position="14">
+        <signal driver="adc" instance="1" name="in8"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="tim" instance="3" name="ch3"/>
+        <signal af="2" driver="tim" instance="1" name="ch2n"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="0" position="19">
+        <signal driver="adc" instance="1" name="in8"/>
+        <signal af="0" driver="i2s" instance="1" name="ws"/>
+        <signal af="0" driver="spi" instance="1" name="nss"/>
+        <signal af="1" driver="tim" instance="3" name="ch3"/>
+        <signal af="2" driver="tim" instance="1" name="ch2n"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="1" position="E1">
         <signal driver="adc" instance="1" name="in9"/>
         <signal af="0" driver="tim" instance="14" name="ch1"/>
         <signal af="1" driver="tim" instance="3" name="ch4"/>
@@ -446,12 +1141,63 @@
         <signal af="6" driver="lpuart" instance="1" name="de"/>
         <signal af="6" driver="lpuart" instance="1" name="rts"/>
       </gpio>
-      <gpio device-pin="c|f|k|y" port="b" pin="2">
+      <gpio device-pin="k" port="b" pin="1" position="16">
+        <signal driver="adc" instance="1" name="in9"/>
+        <signal af="0" driver="tim" instance="14" name="ch1"/>
+        <signal af="1" driver="tim" instance="3" name="ch4"/>
+        <signal af="2" driver="tim" instance="1" name="ch3n"/>
+        <signal af="5" driver="lptim" instance="2" name="in1"/>
+        <signal af="6" driver="lpuart" instance="1" name="de"/>
+        <signal af="6" driver="lpuart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="j" port="b" pin="1" position="5">
+        <signal driver="adc" instance="1" name="in9"/>
+        <signal af="0" driver="tim" instance="14" name="ch1"/>
+        <signal af="1" driver="tim" instance="3" name="ch4"/>
+        <signal af="2" driver="tim" instance="1" name="ch3n"/>
+        <signal af="5" driver="lptim" instance="2" name="in1"/>
+        <signal af="6" driver="lpuart" instance="1" name="de"/>
+        <signal af="6" driver="lpuart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="f|g" port="b" pin="1" position="15">
+        <signal driver="adc" instance="1" name="in9"/>
+        <signal af="0" driver="tim" instance="14" name="ch1"/>
+        <signal af="1" driver="tim" instance="3" name="ch4"/>
+        <signal af="2" driver="tim" instance="1" name="ch3n"/>
+        <signal af="5" driver="lptim" instance="2" name="in1"/>
+        <signal af="6" driver="lpuart" instance="1" name="de"/>
+        <signal af="6" driver="lpuart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="1" position="20">
+        <signal driver="adc" instance="1" name="in9"/>
+        <signal af="0" driver="tim" instance="14" name="ch1"/>
+        <signal af="1" driver="tim" instance="3" name="ch4"/>
+        <signal af="2" driver="tim" instance="1" name="ch3n"/>
+        <signal af="5" driver="lptim" instance="2" name="in1"/>
+        <signal af="6" driver="lpuart" instance="1" name="de"/>
+        <signal af="6" driver="lpuart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="2" position="E1">
         <signal driver="adc" instance="1" name="in10"/>
         <signal af="1" driver="spi" instance="2" name="miso"/>
         <signal af="5" driver="lptim" instance="1" name="out"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="b" pin="3">
+      <gpio device-pin="k" port="b" pin="2" position="17">
+        <signal driver="adc" instance="1" name="in10"/>
+        <signal af="1" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="f" port="b" pin="2" position="15">
+        <signal driver="adc" instance="1" name="in10"/>
+        <signal af="1" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="2" position="21">
+        <signal driver="adc" instance="1" name="in10"/>
+        <signal af="1" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="out"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="3" position="B4">
         <signal af="0" driver="i2s" instance="1" name="ck"/>
         <signal af="0" driver="spi" instance="1" name="sck"/>
         <signal af="1" driver="tim" instance="1" name="ch2"/>
@@ -460,7 +1206,43 @@
         <signal af="4" driver="usart" instance="1" name="de"/>
         <signal af="4" driver="usart" instance="1" name="rts"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="b" pin="4">
+      <gpio device-pin="k" port="b" pin="3" position="27">
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="tim" instance="1" name="ch2"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="4" driver="usart" instance="1" name="ck"/>
+        <signal af="4" driver="usart" instance="1" name="de"/>
+        <signal af="4" driver="usart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="3" position="23">
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="tim" instance="1" name="ch2"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="4" driver="usart" instance="1" name="ck"/>
+        <signal af="4" driver="usart" instance="1" name="de"/>
+        <signal af="4" driver="usart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="f" port="b" pin="3" position="20">
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="tim" instance="1" name="ch2"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="4" driver="usart" instance="1" name="ck"/>
+        <signal af="4" driver="usart" instance="1" name="de"/>
+        <signal af="4" driver="usart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="3" position="42">
+        <signal af="0" driver="i2s" instance="1" name="ck"/>
+        <signal af="0" driver="spi" instance="1" name="sck"/>
+        <signal af="1" driver="tim" instance="1" name="ch2"/>
+        <signal af="2" driver="tim" instance="2" name="ch2"/>
+        <signal af="4" driver="usart" instance="1" name="ck"/>
+        <signal af="4" driver="usart" instance="1" name="de"/>
+        <signal af="4" driver="usart" instance="1" name="rts"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="4" position="B4">
         <signal af="0" driver="i2s" instance="1" name="mck"/>
         <signal af="0" driver="spi" instance="1" name="miso"/>
         <signal af="1" driver="tim" instance="3" name="ch1"/>
@@ -468,7 +1250,39 @@
         <signal af="4" driver="usart" instance="1" name="nss"/>
         <signal af="5" driver="tim" instance="17" name="bk"/>
       </gpio>
-      <gpio port="b" pin="5">
+      <gpio device-pin="k" port="b" pin="4" position="28">
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="4" driver="usart" instance="1" name="cts"/>
+        <signal af="4" driver="usart" instance="1" name="nss"/>
+        <signal af="5" driver="tim" instance="17" name="bk"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="4" position="24">
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="4" driver="usart" instance="1" name="cts"/>
+        <signal af="4" driver="usart" instance="1" name="nss"/>
+        <signal af="5" driver="tim" instance="17" name="bk"/>
+      </gpio>
+      <gpio device-pin="f" port="b" pin="4" position="20">
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="4" driver="usart" instance="1" name="cts"/>
+        <signal af="4" driver="usart" instance="1" name="nss"/>
+        <signal af="5" driver="tim" instance="17" name="bk"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="4" position="43">
+        <signal af="0" driver="i2s" instance="1" name="mck"/>
+        <signal af="0" driver="spi" instance="1" name="miso"/>
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="4" driver="usart" instance="1" name="cts"/>
+        <signal af="4" driver="usart" instance="1" name="nss"/>
+        <signal af="5" driver="tim" instance="17" name="bk"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="5" position="B4">
         <signal driver="sys" name="wkup6"/>
         <signal af="0" driver="i2s" instance="1" name="sd"/>
         <signal af="0" driver="spi" instance="1" name="mosi"/>
@@ -477,7 +1291,52 @@
         <signal af="5" driver="lptim" instance="1" name="in1"/>
         <signal af="6" driver="i2c" instance="1" name="smba"/>
       </gpio>
-      <gpio port="b" pin="6">
+      <gpio device-pin="k" port="b" pin="5" position="29">
+        <signal driver="sys" name="wkup6"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="16" name="bk"/>
+        <signal af="5" driver="lptim" instance="1" name="in1"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="j" port="b" pin="5" position="8">
+        <signal driver="sys" name="wkup6"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="16" name="bk"/>
+        <signal af="5" driver="lptim" instance="1" name="in1"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="5" position="25">
+        <signal driver="sys" name="wkup6"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="16" name="bk"/>
+        <signal af="5" driver="lptim" instance="1" name="in1"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="f" port="b" pin="5" position="20">
+        <signal driver="sys" name="wkup6"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="16" name="bk"/>
+        <signal af="5" driver="lptim" instance="1" name="in1"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="5" position="44">
+        <signal driver="sys" name="wkup6"/>
+        <signal af="0" driver="i2s" instance="1" name="sd"/>
+        <signal af="0" driver="spi" instance="1" name="mosi"/>
+        <signal af="1" driver="tim" instance="3" name="ch2"/>
+        <signal af="2" driver="tim" instance="16" name="bk"/>
+        <signal af="5" driver="lptim" instance="1" name="in1"/>
+        <signal af="6" driver="i2c" instance="1" name="smba"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="6" position="B4">
         <signal af="0" driver="usart" instance="1" name="tx"/>
         <signal af="1" driver="tim" instance="1" name="ch3"/>
         <signal af="2" driver="tim" instance="16" name="ch1n"/>
@@ -485,7 +1344,47 @@
         <signal af="5" driver="lptim" instance="1" name="etr"/>
         <signal af="6" driver="i2c" instance="1" name="scl"/>
       </gpio>
-      <gpio port="b" pin="7">
+      <gpio device-pin="k" port="b" pin="6" position="30">
+        <signal af="0" driver="usart" instance="1" name="tx"/>
+        <signal af="1" driver="tim" instance="1" name="ch3"/>
+        <signal af="2" driver="tim" instance="16" name="ch1n"/>
+        <signal af="4" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="etr"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="j" port="b" pin="6" position="8">
+        <signal af="0" driver="usart" instance="1" name="tx"/>
+        <signal af="1" driver="tim" instance="1" name="ch3"/>
+        <signal af="2" driver="tim" instance="16" name="ch1n"/>
+        <signal af="4" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="etr"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="6" position="26">
+        <signal af="0" driver="usart" instance="1" name="tx"/>
+        <signal af="1" driver="tim" instance="1" name="ch3"/>
+        <signal af="2" driver="tim" instance="16" name="ch1n"/>
+        <signal af="4" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="etr"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="f" port="b" pin="6" position="20">
+        <signal af="0" driver="usart" instance="1" name="tx"/>
+        <signal af="1" driver="tim" instance="1" name="ch3"/>
+        <signal af="2" driver="tim" instance="16" name="ch1n"/>
+        <signal af="4" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="etr"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="6" position="45">
+        <signal af="0" driver="usart" instance="1" name="tx"/>
+        <signal af="1" driver="tim" instance="1" name="ch3"/>
+        <signal af="2" driver="tim" instance="16" name="ch1n"/>
+        <signal af="4" driver="spi" instance="2" name="miso"/>
+        <signal af="5" driver="lptim" instance="1" name="etr"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="7" position="A5">
         <signal driver="adc" instance="1" name="in11"/>
         <signal driver="sys" name="pvd_in"/>
         <signal af="0" driver="usart" instance="1" name="rx"/>
@@ -494,63 +1393,145 @@
         <signal af="5" driver="lptim" instance="1" name="in2"/>
         <signal af="6" driver="i2c" instance="1" name="sda"/>
       </gpio>
-      <gpio port="b" pin="8">
+      <gpio device-pin="k" port="b" pin="7" position="31">
+        <signal driver="adc" instance="1" name="in11"/>
+        <signal driver="sys" name="pvd_in"/>
+        <signal af="0" driver="usart" instance="1" name="rx"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="2" driver="tim" instance="17" name="ch1n"/>
+        <signal af="5" driver="lptim" instance="1" name="in2"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="f|j" port="b" pin="7" position="1">
+        <signal driver="adc" instance="1" name="in11"/>
+        <signal driver="sys" name="pvd_in"/>
+        <signal af="0" driver="usart" instance="1" name="rx"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="2" driver="tim" instance="17" name="ch1n"/>
+        <signal af="5" driver="lptim" instance="1" name="in2"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="7" position="27">
+        <signal driver="adc" instance="1" name="in11"/>
+        <signal driver="sys" name="pvd_in"/>
+        <signal af="0" driver="usart" instance="1" name="rx"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="2" driver="tim" instance="17" name="ch1n"/>
+        <signal af="5" driver="lptim" instance="1" name="in2"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="7" position="46">
+        <signal driver="adc" instance="1" name="in11"/>
+        <signal driver="sys" name="pvd_in"/>
+        <signal af="0" driver="usart" instance="1" name="rx"/>
+        <signal af="1" driver="spi" instance="2" name="mosi"/>
+        <signal af="2" driver="tim" instance="17" name="ch1n"/>
+        <signal af="5" driver="lptim" instance="1" name="in2"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="8" position="A5">
         <signal af="1" driver="spi" instance="2" name="sck"/>
         <signal af="2" driver="tim" instance="16" name="ch1"/>
         <signal af="6" driver="i2c" instance="1" name="scl"/>
       </gpio>
-      <gpio device-pin="c|f|j|k|y" port="b" pin="9">
+      <gpio device-pin="k" port="b" pin="8" position="32">
+        <signal af="1" driver="spi" instance="2" name="sck"/>
+        <signal af="2" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="f|j" port="b" pin="8" position="1">
+        <signal af="1" driver="spi" instance="2" name="sck"/>
+        <signal af="2" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="g" port="b" pin="8" position="28">
+        <signal af="1" driver="spi" instance="2" name="sck"/>
+        <signal af="2" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="8" position="47">
+        <signal af="1" driver="spi" instance="2" name="sck"/>
+        <signal af="2" driver="tim" instance="16" name="ch1"/>
+        <signal af="6" driver="i2c" instance="1" name="scl"/>
+      </gpio>
+      <gpio device-pin="y" port="b" pin="9" position="B6">
         <signal af="0" name="ir_out"/>
         <signal af="2" driver="tim" instance="17" name="ch1"/>
         <signal af="5" driver="spi" instance="2" name="nss"/>
         <signal af="6" driver="i2c" instance="1" name="sda"/>
       </gpio>
-      <gpio device-pin="c" port="b" pin="10">
+      <gpio device-pin="j|k" port="b" pin="9" position="1">
+        <signal af="0" name="ir_out"/>
+        <signal af="2" driver="tim" instance="17" name="ch1"/>
+        <signal af="5" driver="spi" instance="2" name="nss"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="f" port="b" pin="9" position="2">
+        <signal af="0" name="ir_out"/>
+        <signal af="2" driver="tim" instance="17" name="ch1"/>
+        <signal af="5" driver="spi" instance="2" name="nss"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="9" position="48">
+        <signal af="0" name="ir_out"/>
+        <signal af="2" driver="tim" instance="17" name="ch1"/>
+        <signal af="5" driver="spi" instance="2" name="nss"/>
+        <signal af="6" driver="i2c" instance="1" name="sda"/>
+      </gpio>
+      <gpio device-pin="c" port="b" pin="10" position="22">
         <signal driver="adc" instance="1" name="in11"/>
         <signal af="1" driver="lpuart" instance="1" name="rx"/>
         <signal af="2" driver="tim" instance="2" name="ch3"/>
         <signal af="5" driver="spi" instance="2" name="sck"/>
         <signal af="6" driver="i2c" instance="2" name="scl"/>
       </gpio>
-      <gpio device-pin="c" port="b" pin="11">
+      <gpio device-pin="c" port="b" pin="11" position="23">
         <signal driver="adc" instance="1" name="in15"/>
         <signal af="0" driver="spi" instance="2" name="mosi"/>
         <signal af="1" driver="lpuart" instance="1" name="tx"/>
         <signal af="2" driver="tim" instance="2" name="ch4"/>
         <signal af="6" driver="i2c" instance="2" name="sda"/>
       </gpio>
-      <gpio device-pin="c" port="b" pin="12">
+      <gpio device-pin="c" port="b" pin="12" position="24">
         <signal driver="adc" instance="1" name="in16"/>
         <signal af="0" driver="spi" instance="2" name="nss"/>
         <signal af="1" driver="lpuart" instance="1" name="de"/>
         <signal af="1" driver="lpuart" instance="1" name="rts"/>
         <signal af="2" driver="tim" instance="1" name="bk"/>
       </gpio>
-      <gpio device-pin="c" port="b" pin="13">
+      <gpio device-pin="c" port="b" pin="13" position="25">
         <signal af="0" driver="spi" instance="2" name="sck"/>
         <signal af="1" driver="lpuart" instance="1" name="cts"/>
         <signal af="2" driver="tim" instance="1" name="ch1n"/>
         <signal af="6" driver="i2c" instance="2" name="scl"/>
       </gpio>
-      <gpio device-pin="c" port="b" pin="14">
+      <gpio device-pin="c" port="b" pin="14" position="26">
         <signal af="0" driver="spi" instance="2" name="miso"/>
         <signal af="2" driver="tim" instance="1" name="ch2n"/>
         <signal af="6" driver="i2c" instance="2" name="sda"/>
       </gpio>
-      <gpio device-pin="c" port="b" pin="15">
+      <gpio device-pin="c" port="b" pin="15" position="27">
         <signal driver="rtc" name="refin"/>
         <signal af="0" driver="spi" instance="2" name="mosi"/>
         <signal af="2" driver="tim" instance="1" name="ch3n"/>
       </gpio>
-      <gpio device-pin="c|g|k" port="c" pin="6">
+      <gpio device-pin="k" port="c" pin="6" position="20">
         <signal af="1" driver="tim" instance="3" name="ch1"/>
         <signal af="2" driver="tim" instance="2" name="ch3"/>
       </gpio>
-      <gpio device-pin="c" port="c" pin="7">
+      <gpio device-pin="g" port="c" pin="6" position="17">
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="ch3"/>
+      </gpio>
+      <gpio device-pin="c" port="c" pin="6" position="30">
+        <signal af="1" driver="tim" instance="3" name="ch1"/>
+        <signal af="2" driver="tim" instance="2" name="ch3"/>
+      </gpio>
+      <gpio device-pin="c" port="c" pin="7" position="31">
         <signal af="1" driver="tim" instance="3" name="ch2"/>
         <signal af="2" driver="tim" instance="2" name="ch4"/>
       </gpio>
-      <gpio device-pin="c" port="c" pin="13">
+      <gpio device-pin="c" port="c" pin="13" position="1">
         <signal driver="rtc" name="out_alarm"/>
         <signal driver="rtc" name="out_calib"/>
         <signal driver="rtc" name="tamp_in1"/>
@@ -558,39 +1539,59 @@
         <signal driver="sys" name="wkup2"/>
         <signal af="2" driver="tim" instance="1" name="bk"/>
       </gpio>
-      <gpio port="c" pin="14">
+      <gpio device-pin="y" port="c" pin="14" position="B6">
         <signal driver="rcc" name="osc32_in"/>
-        <signal device-pin="f|g|j|k|y" driver="rcc" name="osc_in"/>
+        <signal driver="rcc" name="osc_in"/>
         <signal af="2" driver="tim" instance="1" name="bk2"/>
       </gpio>
-      <gpio device-pin="c|f|g|k|y" port="c" pin="15">
+      <gpio device-pin="c|f|k" port="c" pin="14" position="2">
+        <signal driver="rcc" name="osc32_in"/>
+        <signal device-pin="f|k" driver="rcc" name="osc_in"/>
+        <signal af="2" driver="tim" instance="1" name="bk2"/>
+      </gpio>
+      <gpio device-pin="g|j" port="c" pin="14" position="1">
+        <signal driver="rcc" name="osc32_in"/>
+        <signal driver="rcc" name="osc_in"/>
+        <signal af="2" driver="tim" instance="1" name="bk2"/>
+      </gpio>
+      <gpio device-pin="y" port="c" pin="15" position="A7">
         <signal driver="rcc" name="osc32_out"/>
         <signal af="0" driver="rcc" name="osc32_en"/>
         <signal af="1" driver="rcc" name="osc_en"/>
       </gpio>
-      <gpio device-pin="c" port="d" pin="0">
+      <gpio device-pin="c|f|k" port="c" pin="15" position="3">
+        <signal driver="rcc" name="osc32_out"/>
+        <signal af="0" driver="rcc" name="osc32_en"/>
+        <signal af="1" driver="rcc" name="osc_en"/>
+      </gpio>
+      <gpio device-pin="g" port="c" pin="15" position="2">
+        <signal driver="rcc" name="osc32_out"/>
+        <signal af="0" driver="rcc" name="osc32_en"/>
+        <signal af="1" driver="rcc" name="osc_en"/>
+      </gpio>
+      <gpio device-pin="c" port="d" pin="0" position="38">
         <signal af="1" driver="spi" instance="2" name="nss"/>
         <signal af="2" driver="tim" instance="16" name="ch1"/>
       </gpio>
-      <gpio device-pin="c" port="d" pin="1">
+      <gpio device-pin="c" port="d" pin="1" position="39">
         <signal af="1" driver="spi" instance="2" name="sck"/>
         <signal af="2" driver="tim" instance="17" name="ch1"/>
       </gpio>
-      <gpio device-pin="c" port="d" pin="2">
+      <gpio device-pin="c" port="d" pin="2" position="40">
         <signal af="1" driver="tim" instance="3" name="etr"/>
         <signal af="2" driver="tim" instance="1" name="ch1n"/>
       </gpio>
-      <gpio device-pin="c" port="d" pin="3">
+      <gpio device-pin="c" port="d" pin="3" position="41">
         <signal af="0" driver="usart" instance="2" name="cts"/>
         <signal af="0" driver="usart" instance="2" name="nss"/>
         <signal af="1" driver="spi" instance="2" name="miso"/>
         <signal af="2" driver="tim" instance="1" name="ch2n"/>
       </gpio>
-      <gpio device-pin="c" port="f" pin="0">
+      <gpio device-pin="c" port="f" pin="0" position="8">
         <signal driver="rcc" name="osc_in"/>
         <signal af="2" driver="tim" instance="14" name="ch1"/>
       </gpio>
-      <gpio device-pin="c" port="f" pin="1">
+      <gpio device-pin="c" port="f" pin="1" position="9">
         <signal driver="rcc" name="osc_out"/>
         <signal af="0" driver="rcc" name="osc_en"/>
       </gpio>

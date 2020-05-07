@@ -4,6 +4,38 @@
   <device platform="stm32" family="l4" name="32|42" pin="k" size="b|c" package="u" temperature="6" variant="">
     <naming-schema>{platform}{family}{name}{pin}{size}{package}{temperature}{variant}</naming-schema>
     <invalid-device>stm32l442kbu6</invalid-device>
+    <pin position="1" name="VDD" type="POWER"/>
+    <pin position="2" name="PC14-OSC32_IN (PC14)" type="I/O"/>
+    <pin position="3" name="PC15-OSC32_OUT (PC15)" type="I/O"/>
+    <pin position="4" name="NRST" type="RESET"/>
+    <pin position="5" name="VDDA/VREF+" type="POWER"/>
+    <pin position="6" name="PA0" type="I/O"/>
+    <pin position="7" name="PA1" type="I/O"/>
+    <pin position="8" name="PA2" type="I/O"/>
+    <pin position="9" name="PA3" type="I/O"/>
+    <pin position="10" name="PA4" type="I/O"/>
+    <pin position="11" name="PA5" type="I/O"/>
+    <pin position="12" name="PA6" type="I/O"/>
+    <pin position="13" name="PA7" type="I/O"/>
+    <pin position="14" name="PB0" type="I/O"/>
+    <pin position="15" name="PB1" type="I/O"/>
+    <pin position="16" name="VSS" type="POWER"/>
+    <pin position="17" name="VDD" type="POWER"/>
+    <pin position="18" name="PA8" type="I/O"/>
+    <pin position="19" name="PA9" type="I/O"/>
+    <pin position="20" name="PA10" type="I/O"/>
+    <pin position="21" name="PA11" type="I/O"/>
+    <pin position="22" name="PA12" type="I/O"/>
+    <pin position="23" name="PA13 (JTMS-SWDIO)" type="I/O"/>
+    <pin position="24" name="PA14 (JTCK-SWCLK)" type="I/O"/>
+    <pin position="25" name="PA15 (JTDI)" type="I/O"/>
+    <pin position="26" name="PB3 (JTDO-TRACESWO)" type="I/O"/>
+    <pin position="27" name="PB4 (NJTRST)" type="I/O"/>
+    <pin position="28" name="PB5" type="I/O"/>
+    <pin position="29" name="PB6" type="I/O"/>
+    <pin position="30" name="PB7" type="I/O"/>
+    <pin position="31" name="PH3-BOOT0" type="I/O"/>
+    <pin position="32" name="VSS" type="POWER"/>
     <driver name="core" type="cortex-m4f">
       <memory device-size="b" name="flash" access="rx" start="0x8000000" size="131072"/>
       <memory device-size="c" name="flash" access="rx" start="0x8000000" size="262144"/>
@@ -359,7 +391,7 @@
       </channels>
     </driver>
     <driver name="gpio" type="stm32">
-      <gpio port="a" pin="0">
+      <gpio port="a" pin="0" position="6">
         <signal driver="adc" instance="1" name="in5"/>
         <signal driver="comp" instance="1" name="inm"/>
         <signal driver="opamp" instance="1" name="vinp"/>
@@ -372,7 +404,7 @@
         <signal af="13" driver="sai" instance="1" name="extclk"/>
         <signal af="14" driver="tim" instance="2" name="etr"/>
       </gpio>
-      <gpio port="a" pin="1">
+      <gpio port="a" pin="1" position="7">
         <signal driver="adc" instance="1" name="in6"/>
         <signal driver="comp" instance="1" name="inp"/>
         <signal driver="opamp" instance="1" name="vinm"/>
@@ -383,7 +415,7 @@
         <signal af="7" driver="usart" instance="2" name="rts"/>
         <signal af="14" driver="tim" instance="15" name="ch1n"/>
       </gpio>
-      <gpio port="a" pin="2">
+      <gpio port="a" pin="2" position="8">
         <signal driver="adc" instance="1" name="in7"/>
         <signal driver="comp" instance="2" name="inm"/>
         <signal driver="rcc" name="lsco"/>
@@ -395,7 +427,7 @@
         <signal af="12" driver="comp" instance="2" name="out"/>
         <signal af="14" driver="tim" instance="15" name="ch1"/>
       </gpio>
-      <gpio port="a" pin="3">
+      <gpio port="a" pin="3" position="9">
         <signal driver="adc" instance="1" name="in8"/>
         <signal driver="comp" instance="2" name="inp"/>
         <signal driver="opamp" instance="1" name="vout"/>
@@ -406,7 +438,7 @@
         <signal af="13" driver="sai" instance="1" name="mclk_a"/>
         <signal af="14" driver="tim" instance="15" name="ch2"/>
       </gpio>
-      <gpio port="a" pin="4">
+      <gpio port="a" pin="4" position="10">
         <signal driver="adc" instance="1" name="in9"/>
         <signal driver="comp" instance="1" name="inm"/>
         <signal driver="comp" instance="2" name="inm"/>
@@ -417,7 +449,7 @@
         <signal af="13" driver="sai" instance="1" name="fs_b"/>
         <signal af="14" driver="lptim" instance="2" name="out"/>
       </gpio>
-      <gpio port="a" pin="5">
+      <gpio port="a" pin="5" position="11">
         <signal driver="adc" instance="1" name="in10"/>
         <signal driver="comp" instance="1" name="inm"/>
         <signal driver="comp" instance="2" name="inm"/>
@@ -427,7 +459,7 @@
         <signal af="5" driver="spi" instance="1" name="sck"/>
         <signal af="14" driver="lptim" instance="2" name="etr"/>
       </gpio>
-      <gpio port="a" pin="6">
+      <gpio port="a" pin="6" position="12">
         <signal driver="adc" instance="1" name="in11"/>
         <signal af="1" driver="tim" instance="1" name="bkin"/>
         <signal af="5" driver="spi" instance="1" name="miso"/>
@@ -437,7 +469,7 @@
         <signal af="12" driver="tim" instance="1" name="bkin_comp2"/>
         <signal af="14" driver="tim" instance="16" name="ch1"/>
       </gpio>
-      <gpio port="a" pin="7">
+      <gpio port="a" pin="7" position="13">
         <signal driver="adc" instance="1" name="in12"/>
         <signal af="1" driver="tim" instance="1" name="ch1n"/>
         <signal af="4" driver="i2c" instance="3" name="scl"/>
@@ -445,7 +477,7 @@
         <signal af="10" driver="quadspi" name="bk1_io2"/>
         <signal af="12" driver="comp" instance="2" name="out"/>
       </gpio>
-      <gpio port="a" pin="8">
+      <gpio port="a" pin="8" position="18">
         <signal af="0" driver="rcc" name="mco"/>
         <signal af="1" driver="tim" instance="1" name="ch1"/>
         <signal af="7" driver="usart" instance="1" name="ck"/>
@@ -453,21 +485,21 @@
         <signal af="13" driver="sai" instance="1" name="sck_a"/>
         <signal af="14" driver="lptim" instance="2" name="out"/>
       </gpio>
-      <gpio port="a" pin="9">
+      <gpio port="a" pin="9" position="19">
         <signal af="1" driver="tim" instance="1" name="ch2"/>
         <signal af="4" driver="i2c" instance="1" name="scl"/>
         <signal af="7" driver="usart" instance="1" name="tx"/>
         <signal af="13" driver="sai" instance="1" name="fs_a"/>
         <signal af="14" driver="tim" instance="15" name="bkin"/>
       </gpio>
-      <gpio port="a" pin="10">
+      <gpio port="a" pin="10" position="20">
         <signal af="1" driver="tim" instance="1" name="ch3"/>
         <signal af="4" driver="i2c" instance="1" name="sda"/>
         <signal af="7" driver="usart" instance="1" name="rx"/>
         <signal af="10" name="crs_sync"/>
         <signal af="13" driver="sai" instance="1" name="sd_a"/>
       </gpio>
-      <gpio port="a" pin="11">
+      <gpio port="a" pin="11" position="21">
         <signal af="1" driver="tim" instance="1" name="ch4"/>
         <signal af="2" driver="tim" instance="1" name="bkin2"/>
         <signal af="5" driver="spi" instance="1" name="miso"/>
@@ -477,7 +509,7 @@
         <signal af="10" driver="usb" name="dm"/>
         <signal af="12" driver="tim" instance="1" name="bkin2_comp1"/>
       </gpio>
-      <gpio port="a" pin="12">
+      <gpio port="a" pin="12" position="22">
         <signal af="1" driver="tim" instance="1" name="etr"/>
         <signal af="5" driver="spi" instance="1" name="mosi"/>
         <signal af="7" driver="usart" instance="1" name="de"/>
@@ -485,7 +517,7 @@
         <signal af="9" driver="can" instance="1" name="tx"/>
         <signal af="10" driver="usb" name="dp"/>
       </gpio>
-      <gpio port="a" pin="13">
+      <gpio port="a" pin="13" position="23">
         <signal af="0" driver="sys" name="jtms"/>
         <signal af="0" driver="sys" name="swdio"/>
         <signal af="1" name="ir_out"/>
@@ -493,7 +525,7 @@
         <signal af="12" driver="swpmi" instance="1" name="tx"/>
         <signal af="13" driver="sai" instance="1" name="sd_b"/>
       </gpio>
-      <gpio port="a" pin="14">
+      <gpio port="a" pin="14" position="24">
         <signal af="0" driver="sys" name="jtck"/>
         <signal af="0" driver="sys" name="swclk"/>
         <signal af="1" driver="lptim" instance="1" name="out"/>
@@ -501,7 +533,7 @@
         <signal af="12" driver="swpmi" instance="1" name="rx"/>
         <signal af="13" driver="sai" instance="1" name="fs_b"/>
       </gpio>
-      <gpio port="a" pin="15">
+      <gpio port="a" pin="15" position="25">
         <signal af="0" driver="sys" name="jtdi"/>
         <signal af="1" driver="tim" instance="2" name="ch1"/>
         <signal af="2" driver="tim" instance="2" name="etr"/>
@@ -510,7 +542,7 @@
         <signal af="6" driver="spi" instance="3" name="nss"/>
         <signal af="12" driver="swpmi" instance="1" name="suspend"/>
       </gpio>
-      <gpio port="b" pin="0">
+      <gpio port="b" pin="0" position="14">
         <signal driver="adc" instance="1" name="in15"/>
         <signal af="1" driver="tim" instance="1" name="ch2n"/>
         <signal af="5" driver="spi" instance="1" name="nss"/>
@@ -518,7 +550,7 @@
         <signal af="12" driver="comp" instance="1" name="out"/>
         <signal af="13" driver="sai" instance="1" name="extclk"/>
       </gpio>
-      <gpio port="b" pin="1">
+      <gpio port="b" pin="1" position="15">
         <signal driver="adc" instance="1" name="in16"/>
         <signal driver="comp" instance="1" name="inm"/>
         <signal af="1" driver="tim" instance="1" name="ch3n"/>
@@ -527,7 +559,7 @@
         <signal af="10" driver="quadspi" name="bk1_io0"/>
         <signal af="14" driver="lptim" instance="2" name="in1"/>
       </gpio>
-      <gpio port="b" pin="3">
+      <gpio port="b" pin="3" position="26">
         <signal driver="comp" instance="2" name="inm"/>
         <signal af="0" driver="sys" name="jtdo"/>
         <signal af="0" driver="sys" name="swo"/>
@@ -538,7 +570,7 @@
         <signal af="7" driver="usart" instance="1" name="rts"/>
         <signal af="13" driver="sai" instance="1" name="sck_b"/>
       </gpio>
-      <gpio port="b" pin="4">
+      <gpio port="b" pin="4" position="27">
         <signal driver="comp" instance="2" name="inp"/>
         <signal af="0" driver="sys" name="jtrst"/>
         <signal af="4" driver="i2c" instance="3" name="sda"/>
@@ -548,7 +580,7 @@
         <signal af="9" driver="tsc" name="g2_io1"/>
         <signal af="13" driver="sai" instance="1" name="mclk_b"/>
       </gpio>
-      <gpio port="b" pin="5">
+      <gpio port="b" pin="5" position="28">
         <signal af="1" driver="lptim" instance="1" name="in1"/>
         <signal af="4" driver="i2c" instance="1" name="smba"/>
         <signal af="5" driver="spi" instance="1" name="mosi"/>
@@ -559,7 +591,7 @@
         <signal af="13" driver="sai" instance="1" name="sd_b"/>
         <signal af="14" driver="tim" instance="16" name="bkin"/>
       </gpio>
-      <gpio port="b" pin="6">
+      <gpio port="b" pin="6" position="29">
         <signal driver="comp" instance="2" name="inp"/>
         <signal af="1" driver="lptim" instance="1" name="etr"/>
         <signal af="4" driver="i2c" instance="1" name="scl"/>
@@ -568,7 +600,7 @@
         <signal af="13" driver="sai" instance="1" name="fs_b"/>
         <signal af="14" driver="tim" instance="16" name="ch1n"/>
       </gpio>
-      <gpio port="b" pin="7">
+      <gpio port="b" pin="7" position="30">
         <signal driver="comp" instance="2" name="inm"/>
         <signal driver="sys" name="pvd_in"/>
         <signal af="1" driver="lptim" instance="1" name="in2"/>
@@ -576,13 +608,13 @@
         <signal af="7" driver="usart" instance="1" name="rx"/>
         <signal af="9" driver="tsc" name="g2_io4"/>
       </gpio>
-      <gpio port="c" pin="14">
+      <gpio port="c" pin="14" position="2">
         <signal driver="rcc" name="osc32_in"/>
       </gpio>
-      <gpio port="c" pin="15">
+      <gpio port="c" pin="15" position="3">
         <signal driver="rcc" name="osc32_out"/>
       </gpio>
-      <gpio port="h" pin="3"/>
+      <gpio port="h" pin="3" position="31"/>
     </driver>
   </device>
 </modm>
