@@ -43,7 +43,7 @@ generate-sam: generate-saml21 generate-samd21 generate-samd51
 
 # STM32 device files
 .PHONY: generate-stm32%
-generate-stm32%: raw-device-data/sam-devices ext/cmsis-5-partial ext/cmsis-header-stm32
+generate-stm32%: raw-device-data/stm32-devices ext/cmsis-5-partial ext/cmsis-header-stm32
 	@rm -f ../../devices/stm32/$(@:generate-%=%)*
 	./stm_generator.py `echo $(@:generate-%=%) | tr '[:lower:]' '[:upper:]'`
 
